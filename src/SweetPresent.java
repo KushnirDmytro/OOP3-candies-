@@ -9,6 +9,42 @@ public class SweetPresent {
     private Sweet[] contains;
     private DifferentSweets whatSweets;
 
+    public void showBoxContain(){
+        for (int i = 0; i < size; ++i){
+            this.contains[i].showSweet();
+        }
+    }
+        private void quickSorter(SweetPresent boxToSort, int from, int to){
+            for (int i =0; i<to; ++i){
+                if (from < to) {
+                    int pivot = partitionQuickSort(boxToSort, from, to);
+                    quickSorter(boxToSort, from, pivot - 1);
+                    quickSorter(boxToSort, pivot + 1, to);
+                }
+            }
+        }
+        private int partitionQuickSort(SweetPresent boxToSort, int from, int to){
+            Sweet pivot = boxToSort.contains[to];
+            int indx = from -1;
+            for (int j = from; j < to; ++j){
+                if (boxToSort.contains[j].getWeight() <= pivot.getWeight()){
+                    indx++;
+                    swapSweets(indx, j);
+                }
+            }
+            swapSweets(to,indx +1);
+            return indx+1;
+        }
+        private void swapSweets(int first, int second){
+            Sweet sweetBuf;
+            sweetBuf = this.contains[first];
+            this.contains[first] = this.contains[second];
+            this.contains[second] = sweetBuf;
+        }
+
+
+
+
     SweetPresent(int size){
         contains = new Sweet[size];
         this.size = size;
@@ -17,6 +53,10 @@ public class SweetPresent {
         }
         this.whatSweets = getContain();
         this.weight = countWeight();
+    }
+
+    public void sortByWeight(){
+        quickSorter(this, 0, this.size -1);
     }
 
     public Sweet giveTheCandyOfSugar(int sugarFrom, int sugarTo){
@@ -41,6 +81,9 @@ public class SweetPresent {
         System.out.println("Closest sugar contain is " + minDifference);
         return null;
     }
+
+
+
 
     private class DifferentSweets {
         int candies = 0;

@@ -15,6 +15,9 @@ public class NewYearMirracle {
         System.out.println("The Present has " + ourBox.getCandies() + " candies, " + ourBox.getChockolates() + " chocolates ," +
         ourBox.getLolipops() + " lolipops");
         System.out.println("The Present weight is " + ourBox.getWeight());
+        ourBox.sortByWeight();
+        ourBox.showBoxContain();
+
         System.out.println("What sugar contain do you want, kid?");
         System.out.print("From:");
         int sugarContainFrom = 0;
