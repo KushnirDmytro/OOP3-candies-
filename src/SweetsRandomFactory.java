@@ -4,36 +4,50 @@ import java.util.Random;
  * Created by D1mD1m on 10/9/2016.
  */
 public class SweetsRandomFactory {
+    protected enum SweetsKinds {
+        CANDY, LOLLIPOP, CHOCOLATE;
 
-    private enum SweetsKinds{CANDY, LOLLIPOP, CHOCOLATE;
         public static SweetsKinds randomKind() {
             int pick = new Random().nextInt(SweetsKinds.values().length);
             return SweetsKinds.values()[pick];
         }
+
+        @Override
+        public String toString() {
+            switch (this) {
+                case CANDY:
+                    return "candy";
+                case LOLLIPOP:
+                    return "lollipop";
+                case CHOCOLATE:
+                    return "chocolate";
+                default:
+                    return "Undefined";
+            }
+        }
     }
 
 
-    public static Sweet createRandomSweet(){
+    protected static Sweet createRandomSweet(){
+        SweetSpec newSweetSpec;
         Sweet newSweet;
         Random rn = new Random();
-        int thisWeight = rn.nextInt(200);
-        int thisSugar = rn.nextInt(100);
-        Packing thisPack = Packing.randomPacking();
         SweetsKinds thisKind = SweetsKinds.randomKind();
-        String thisName = ClassicSweetsNames.randomName().toString();
+        newSweetSpec = SweetSpec.randomSpec();
         switch (thisKind){
             case CANDY:
                 Color thisColor = Color.randomColor();
                 Taste thisTaste = Taste.randomTaste();
-                newSweet = new Candy(thisPack,  thisName, thisSugar, thisWeight, thisTaste, thisColor);
+                newSweet = new Candy(newSweetSpec, thisTaste, thisColor);
                 break;
             case CHOCOLATE:
                 int thisChocolate = rn.nextInt(100);
-                newSweet = new Chocolate(thisPack,  thisName, thisSugar, thisWeight, thisChocolate);
+                newSweet = new Chocolate(newSweetSpec, thisChocolate);
                 break;
             default:
                 int lolliLength = rn.nextInt(25);
-                newSweet = new Lolipop(thisPack,  thisName, thisSugar, thisWeight, lolliLength);
+                newSweet = new Lolipop(newSweetSpec, lolliLength);
+                break;
         }
         return newSweet;
     }

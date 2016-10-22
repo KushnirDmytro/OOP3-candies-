@@ -1,3 +1,4 @@
+import static java.lang.Math.abs;
 import static java.lang.Math.min;
 
 /**
@@ -65,15 +66,15 @@ public class SweetPresent {
         int currentDifference;
         for (int i = 0 ; i < this.size; ++i){
             thisSweetness = contains[i].getSugar();
-            if ( (thisSweetness >= sugarFrom) && (thisSweetness <= sugarFrom) ){
+            if ( (thisSweetness >= sugarFrom) && (thisSweetness <= sugarTo) ){ // if matcher
                 System.out.println("Here is your Sweet!");
                 return this.getSweet(i);
             }
             if (thisSweetness < sugarFrom){
-                currentDifference = sugarFrom - thisSweetness;
+                currentDifference = abs(sugarFrom - thisSweetness);
             }
             else{
-                currentDifference = thisSweetness - sugarTo;
+                currentDifference = abs(thisSweetness - sugarTo);
             }
             minDifference = min(minDifference, currentDifference);
         }
