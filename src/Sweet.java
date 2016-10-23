@@ -7,34 +7,39 @@ abstract class Sweet {
     private int sugar;
     private int weight;
 
-    Sweet(){
+    Sweet() {
         this(new SweetSpec());
     }
 
-    Sweet(SweetSpec spec){
-        this.name = spec.name;
-        this.packing = spec.packing;
-        this.sugar = spec.sugar;
-        this.weight = spec.weight;
+    Sweet(SweetSpec spec) {
+        this.name = spec.getName();
+        this.packing = spec.getPacking();
+        this.sugar = spec.getSugar();
+        this.weight = spec.getSugar();
     }
 
-    public int getSugar(){
+    public int getSugar() {
         return this.sugar;
     }
-    public String getName(){
+
+    public String getName() {
         return this.name;
     }
-    public Packing getPacking(){
+
+    public Packing getPacking() {
         return packing;
     }
-    public int getWeight(){
+
+    public int getWeight() {
         return weight;
     }
 
-    public void showSweet(){
+    public void showSweet() {
         System.out.println("Name: " + this.getName());
         System.out.println("Weigth: " + this.getWeight());
         System.out.println("Packing: " + this.getPacking());
         System.out.println("SugarContain: " + this.getSugar());
-    };
+    }
+
+    ;
 }

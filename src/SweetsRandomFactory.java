@@ -28,13 +28,13 @@ public class SweetsRandomFactory {
     }
 
 
-    protected static Sweet createRandomSweet(){
+    protected static Sweet createRandomSweet() {
         SweetSpec newSweetSpec;
         Sweet newSweet;
         Random rn = new Random();
         SweetsKinds thisKind = SweetsKinds.randomKind();
         newSweetSpec = SweetSpec.randomSpec();
-        switch (thisKind){
+        switch (thisKind) {
             case CANDY:
                 Color thisColor = Color.randomColor();
                 Taste thisTaste = Taste.randomTaste();

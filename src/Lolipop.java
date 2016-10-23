@@ -4,22 +4,22 @@
 public class Lolipop extends Sweet {
     int lenghtOfStick;
 
-    Lolipop(){
+    Lolipop() {
         super();
         this.lenghtOfStick = 0;
     }
 
-    Lolipop(SweetSpec sweetSpec, int lenghtOfStick){
+    Lolipop(SweetSpec sweetSpec, int lenghtOfStick) {
         super(sweetSpec);
         this.lenghtOfStick = lenghtOfStick;
     }
 
-    private int getLenghtOfStick(){
+    private int getLenghtOfStick() {
         return this.lenghtOfStick;
     }
 
     @Override
-    public void showSweet(){
+    public void showSweet() {
         System.out.println("It is the Lollipop!");
         super.showSweet();
         System.out.println("StickLenght: " + this.getLenghtOfStick());

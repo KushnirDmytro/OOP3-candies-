@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703d23f0-73c8-4c59-9f65-c8555234c5a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SweetSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Candy.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Candy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Chocolate.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Chocolate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/ClassicSweetsNames.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/ClassicSweetsNames.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Color.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Lolipop.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Lolipop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Packing.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Packing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Sweet.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Sweet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent$DifferentSweets.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent$DifferentSweets.class" />
+    <list default="true" id="703d23f0-73c8-4c59-9f65-c8555234c5a8" name="Default" comment="another refactor">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchSweet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SweetSearchSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/NewYearMirracle.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/NewYearMirracle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Taste.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Taste.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$1.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$SweetsKinds.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$SweetsKinds.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Candy.java" afterPath="$PROJECT_DIR$/src/Candy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chocolate.java" afterPath="$PROJECT_DIR$/src/Chocolate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassicSweetsNames.java" afterPath="$PROJECT_DIR$/src/ClassicSweetsNames.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Color.java" afterPath="$PROJECT_DIR$/src/Color.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lolipop.java" afterPath="$PROJECT_DIR$/src/Lolipop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewYearMirracle.java" afterPath="$PROJECT_DIR$/src/NewYearMirracle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Packing.java" afterPath="$PROJECT_DIR$/src/Packing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sweet.java" afterPath="$PROJECT_DIR$/src/Sweet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetPresent.java" afterPath="$PROJECT_DIR$/src/SweetPresent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetSpec.java" afterPath="$PROJECT_DIR$/src/SweetSpec.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetsRandomFactory.java" afterPath="$PROJECT_DIR$/src/SweetsRandomFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Taste.java" afterPath="$PROJECT_DIR$/src/Taste.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ClassicSweetsNames.java" afterPath="$PROJECT_DIR$/src/SweetsNamesClassic.java" />
     </list>
     <ignored path="OOP3_LAB2(candies).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,41 +45,40 @@
       <file leaf-file-name="Sweet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SweetSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SweetSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SweetPresent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SweetPresent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SweetPresent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1219">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#3595#3596#0" expanded="true" />
+                <element signature="e#3660#3661#0" expanded="true" />
+                <element signature="e#3741#3742#0" expanded="true" />
+                <element signature="e#3822#3823#0" expanded="true" />
+                <element signature="e#3897#3898#0" expanded="true" />
+                <element signature="e#3971#3972#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,29 +87,32 @@
       <file leaf-file-name="NewYearMirracle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NewYearMirracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SweetsRandomFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SweetsRandomFactory.java">
+      <file leaf-file-name="SweetSpec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SweetSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Packing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Packing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="14" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="175">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,13 +120,33 @@
       <file leaf-file-name="Candy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Candy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SweetsRandomFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SweetsRandomFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchSweet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchSweet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,22 +157,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
               <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chocolate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chocolate.java">
+      <file leaf-file-name="Packing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Packing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="192">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SweetSearchSpec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SweetSearchSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,19 +208,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/CandyFactory.java" />
         <option value="$PROJECT_DIR$/src/SweetPeresent.java" />
-        <option value="$PROJECT_DIR$/src/NewYearMirracle.java" />
         <option value="$PROJECT_DIR$/src/SweetsQiuckSorter.java" />
-        <option value="$PROJECT_DIR$/src/Taste.java" />
-        <option value="$PROJECT_DIR$/src/Color.java" />
-        <option value="$PROJECT_DIR$/src/Packing.java" />
-        <option value="$PROJECT_DIR$/src/ClassicSweetsNames.java" />
-        <option value="$PROJECT_DIR$/src/SweetPresent.java" />
-        <option value="$PROJECT_DIR$/src/Sweet.java" />
-        <option value="$PROJECT_DIR$/src/SweetSpec.java" />
-        <option value="$PROJECT_DIR$/src/Candy.java" />
         <option value="$PROJECT_DIR$/src/Lolipop.java" />
         <option value="$PROJECT_DIR$/src/Chocolate.java" />
+        <option value="$PROJECT_DIR$/src/NewYearMirracle.java" />
+        <option value="$PROJECT_DIR$/src/Color.java" />
+        <option value="$PROJECT_DIR$/src/ClassicSweetsNames.java" />
+        <option value="$PROJECT_DIR$/src/Packing.java" />
+        <option value="$PROJECT_DIR$/src/Taste.java" />
         <option value="$PROJECT_DIR$/src/SweetsRandomFactory.java" />
+        <option value="$PROJECT_DIR$/src/SweetsNamesClassic.java" />
+        <option value="$PROJECT_DIR$/src/SweetSpec.java" />
+        <option value="$PROJECT_DIR$/src/SweetPresent.java" />
+        <option value="$PROJECT_DIR$/src/Sweet.java" />
+        <option value="$PROJECT_DIR$/src/SearchSweet.java" />
+        <option value="$PROJECT_DIR$/src/SweetSearchSpec.java" />
+        <option value="$PROJECT_DIR$/src/Candy.java" />
       </list>
     </option>
   </component>
@@ -547,6 +576,14 @@
       <option name="presentableId" value="Default" />
       <updated>1476015459879</updated>
     </task>
+    <task id="LOCAL-00001" summary="stupid awful things refactored">
+      <created>1477155948674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477155948674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,25 +595,25 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4970458" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.5354505" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.54135895" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.46454948" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.45864105" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15878877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.4970458" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.424" sideWeight="0.7038405" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.424" sideWeight="0.7001477" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -590,23 +627,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="stupid awful things refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="stupid awful things refactored" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SweetPresent.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/src/NewYearMirracle.java</url>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Candy.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/SweetPresent.java</url>
+          <line>68</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -620,7 +661,7 @@
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,6 +672,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#3595#3596#0" expanded="true" />
+            <element signature="e#3660#3661#0" expanded="true" />
+            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="e#3822#3823#0" expanded="true" />
+            <element signature="e#3897#3898#0" expanded="true" />
+            <element signature="e#3971#3972#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,10 +706,8 @@
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,10 +732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,8 +741,8 @@
         <state relative-caret-position="204">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -707,106 +752,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassicSweetsNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Taste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SweetPresent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewYearMirracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SweetSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Candy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Packing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lolipop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,17 +763,156 @@
         <state relative-caret-position="153">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Taste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SweetsNamesClassic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SweetsRandomFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="277">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewYearMirracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SweetSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchSweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SweetSearchSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Candy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lolipop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Packing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SweetPresent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#3595#3596#0" expanded="true" />
+            <element signature="e#3660#3661#0" expanded="true" />
+            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="e#3822#3823#0" expanded="true" />
+            <element signature="e#3897#3898#0" expanded="true" />
+            <element signature="e#3971#3972#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

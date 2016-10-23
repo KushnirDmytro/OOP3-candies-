@@ -4,22 +4,22 @@
 public class Chocolate extends Sweet {
     int chockolateContain;
 
-    Chocolate(){
+    Chocolate() {
         super();
         this.chockolateContain = 0;
     }
 
-    Chocolate(SweetSpec sweetSpec, int chockolatePercentage){
+    Chocolate(SweetSpec sweetSpec, int chockolatePercentage) {
         super(sweetSpec);
         this.chockolateContain = chockolatePercentage;
     }
 
-    private int getChockolateContain(){
+    private int getChockolateContain() {
         return this.chockolateContain;
     }
 
     @Override
-    public void showSweet(){
+    public void showSweet() {
         System.out.println("It is the Chocolate!");
         super.showSweet();
         System.out.println("ChocolateContain: " + this.getChockolateContain());
