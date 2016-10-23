@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703d23f0-73c8-4c59-9f65-c8555234c5a8" name="Default" comment="another refactor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchSweet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SweetSearchSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/NewYearMirracle.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/NewYearMirracle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$1.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$SweetsKinds.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory$SweetsKinds.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetsRandomFactory.class" />
+    <list default="true" id="703d23f0-73c8-4c59-9f65-c8555234c5a8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/ClassicSweetsNames.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Color.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Packing.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Packing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Sweet.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Sweet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent$DifferentSweets.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/SweetPresent$DifferentSweets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Taste.class" afterPath="$PROJECT_DIR$/out/production/OOP3_LAB2(candies)/Taste.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Candy.java" afterPath="$PROJECT_DIR$/src/Candy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chocolate.java" afterPath="$PROJECT_DIR$/src/Chocolate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Color.java" afterPath="$PROJECT_DIR$/src/Color.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lolipop.java" afterPath="$PROJECT_DIR$/src/Lolipop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewYearMirracle.java" afterPath="$PROJECT_DIR$/src/NewYearMirracle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Packing.java" afterPath="$PROJECT_DIR$/src/Packing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sweet.java" afterPath="$PROJECT_DIR$/src/Sweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetPresent.java" afterPath="$PROJECT_DIR$/src/SweetPresent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetSpec.java" afterPath="$PROJECT_DIR$/src/SweetSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweetsRandomFactory.java" afterPath="$PROJECT_DIR$/src/SweetsRandomFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Taste.java" afterPath="$PROJECT_DIR$/src/Taste.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ClassicSweetsNames.java" afterPath="$PROJECT_DIR$/src/SweetsNamesClassic.java" />
     </list>
     <ignored path="OOP3_LAB2(candies).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -583,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477155948674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="another refactor &amp; created universal search method">
+      <created>1477233199249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477233199249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,7 +623,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stupid awful things refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="stupid awful things refactored" />
+    <MESSAGE value="another refactor &amp; created universal search method" />
+    <option name="LAST_COMMIT_MESSAGE" value="another refactor &amp; created universal search method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
