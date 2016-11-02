@@ -4,7 +4,6 @@ import java.util.Random;
  * Created by D1mD1m on 10/22/2016.
  */
 public class SweetSpec {
-
     private Packing packing;
     private String name;
     private int sugar;
@@ -17,11 +16,16 @@ public class SweetSpec {
         this.weight = 0;
     }
 
+
     protected SweetSpec(String name, Packing packing, int sugar, int weight) {
         this.packing = packing;
         this.name = name;
         this.sugar = sugar;
         this.weight = weight;
+    }
+
+    protected SweetSpec(SweetSpec spec){
+        this(spec.getName(), spec.getPacking(), spec.getSugar(), spec.getWeight());
     }
 
     static protected SweetSpec randomSpec() {
@@ -33,13 +37,13 @@ public class SweetSpec {
         return new SweetSpec(thisName, thisPack, thisSugar, thisWeight);
     }
 
-    protected void setName(String name) {
-        this.name = name;
-    }
+   // protected void setName(String name) {
+    //    this.name = name;
+   // }
 
-    protected void setPacking(Packing packing) {
-        this.packing = packing;
-    }
+   // protected void setPacking(Packing packing) {
+    //    this.packing = packing;
+   // }
 
     public int getSugar() {
         return this.sugar;

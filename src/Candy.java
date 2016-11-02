@@ -7,14 +7,26 @@ public class Candy extends Sweet {
 
     Candy() {
         super();
-        this.taste = Taste.UNDEFINED;
-        this.color = Color.UNDEFINED;
+        //this.taste = Taste.UNDEFINED;
+        //this.color = Color.UNDEFINED;
     }
 
-    Candy(SweetSpec sweetSpec, Taste taste, Color color) {
-        super(sweetSpec);
-        this.taste = taste;
-        this.color = color;
+    //Candy(SweetSpec sweetSpec, Taste taste, Color color) {
+
+        //CandySweetSpec(sweetSpec, taste, color);
+        //this.taste = taste;
+        //this.color = color;
+    //}
+
+    Candy(CandySweetSpec candySweetSpec){
+        //super(candySweetSpec.getName().toString(), candySweetSpec.getPacking(), candySweetSpec.getSugar(), candySweetSpec.getWeight());
+        super ((SweetSpec) candySweetSpec);
+        this.taste = candySweetSpec.getTaste();
+        this.color = candySweetSpec.getColor();
+    }
+
+    Candy(String name, Packing packing, int sugar, int weight ,Taste taste,Color color){
+        this(new CandySweetSpec(name, packing, sugar, weight, taste, color));
     }
 
     @Override
